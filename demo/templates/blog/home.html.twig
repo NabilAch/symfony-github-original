@@ -1,0 +1,55 @@
+{% extends 'base.html.twig' %}
+{% block title %}L'usine Mentale{% endblock %}
+
+{% block body %}
+
+<div class="jumbotron">
+    <h1 class="display-3">Bienvenue sur L'usine Mentale </h1>
+    <p class="lead">Dans ce blog, de nombreux articles, conseils et méthodes efficaces pour vous permettre d'optimiser
+        votre productivité au maximum !</p>
+    <hr class="my-4">
+
+    <img src="{{ image }}">
+
+    <p>
+    <blockquote class="blockquote text-center">
+        <p class="mb-0">"La productivité n'est pas seulement la quantité de travail effectué. C'est aussi une question
+            de qualité."</p>
+        <footer class="blockquote-footer">Kenneth Blanchard <cite title="Source Title"> dans "Le Manager minute"</cite>
+        </footer>
+    </blockquote>
+    </p>
+
+    <hr class="my-4">
+
+    <br>
+
+    <div style="text-align: center;">
+        <h2>Privilégier la qualité à la quantité</h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur possimus numquam odit alias expedita saepe,
+        laborum vitae dicta nemo. Quam blanditiis quos consequuntur beatae esse enim itaque delectus odio ab.
+        Porro praesentium repellendus distinctio itaque ut quo adipisci cumque animi fugiat dolore debitis dolorem fugit
+        facilis assumenda doloribus dolor, minus dicta reiciendis. Saepe labore libero nobis possimus asperiores tempora
+        itaque?
+        Quas nemo sed natus repellat cupiditate maiores nihil delectus labore atque voluptatum! Impedit error non
+        cupiditate omnis consectetur dignissimos. Odio impedit animi ab minima soluta deserunt non accusamus architecto
+        sequi.
+    </div>
+    <hr class="my-4">
+    <br>
+
+    <div style="margin: auto;" class="card border-primary mb-3" style="max-width: 20rem;">
+        <div class="card-header">
+            
+        </div>
+        <div class="card-body">
+            <h4 class="card-title">Découvrez nos articles, de nombreux méthodes et de ressources pour exploser votre
+                routine de travail :</h4>
+            <p class="lead"> <a class="btn btn-primary btn-lg btn-block" href="{{ path ('blog') }}" role="button">Nos articles</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
